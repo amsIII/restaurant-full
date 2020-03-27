@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- WELCOME JUMBO-->
-<div class="welcome-jumbo">
+<div>
   <h1>Menu Page</h1>
 </div>
 @endsection

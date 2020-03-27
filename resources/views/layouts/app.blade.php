@@ -78,14 +78,13 @@
     <section id="app-layout">
 
       @include('includes.side-menu')
-      
-      @yield('content')
+
+      <section id="content-section">
+        @yield('content')
+      </section>
 
     </section>
-    
-    <!-- <script src="/js/dist/vendors~FirstComp.js"></script>
-    <script src="/js/dist/FirstComp.js"></script>
-    <script src="/js/dist/main.js"></script> -->
+
   </body>
 
 </html>
