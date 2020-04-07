@@ -32,9 +32,6 @@ Route::get('/waitlist', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 });
-Route::get('/giftcards', function () {
-    return view('pages/giftcards');
-});
 // Route::get('/about', function () {
 //     return view('pages/about');
 // });
