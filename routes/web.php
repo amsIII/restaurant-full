@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('menu/index ');
 });
+Route::get('/menu/{slug}', function () {
+    return view('menu/single-menu ');
+});
 
 // PAGES
 Route::get('/about', function () {
